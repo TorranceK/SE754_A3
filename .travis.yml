@@ -1,7 +1,11 @@
 language: java
 
-script: 
-  - mvn clean verify
-  - mvn clean coverage test
+install:
+  - mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
-after_success: mvn coveralls
+script:
+  - mvn clean verify
+  - mvn test jacoco:report
+
+after_success:
+  - mvn coveralls:report
