@@ -1,8 +1,5 @@
 language: java
 
-install:
-  - pip install coveralls
-
 script: 
   - mvn clean verify
   - sbt clean coverage test
