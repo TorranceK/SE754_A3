@@ -4,6 +4,12 @@
   <artifactId>lambda-java-example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>lambda-java-example</name>
+	
+	<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	
   <dependencies>
   	<dependency>
   		<groupId>com.amazonaws</groupId>
@@ -16,7 +22,8 @@
 	    <version>4.12</version>
 	</dependency>
   </dependencies>
-  <build>
+ 
+	<build>
   	<plugins>
   		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
