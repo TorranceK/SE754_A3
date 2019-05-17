@@ -2,3 +2,4 @@
 [![Coverage Status](https://coveralls.io/repos/github/TorranceK/SE754_A3/badge.svg?branch=master)](https://coveralls.io/github/TorranceK/SE754_A3?branch=master)
 
 readme
+test1
